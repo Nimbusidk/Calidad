@@ -24,5 +24,5 @@ jobs:
       - name: validator HTML   
         run: html-validator --file=index.html --verbose
 
-      #- name: Validar CSS
-       # run: npx css-validator --file=src/index.css --verbose
+      - name: Validar CSS
+        run: npx css-validator --file=REACT-CONTEXT-CRUD/src/index.css --verbose
