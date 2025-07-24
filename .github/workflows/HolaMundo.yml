@@ -19,10 +19,10 @@ jobs:
 
       
       - name: instalando
-        run: npm install -g html-validator-cli
+        run: npm install -g html-validator-cli csstree-validator
 
       - name: validator HTML   
         run: html-validator --file=index.html --verbose
 
       - name: Validar CSS
-        run: css-validator --file=src/index.css --verbose
+        run: csstree-validator --file=src/index.css --verbose
