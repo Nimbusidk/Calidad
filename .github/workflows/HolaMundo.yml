@@ -25,4 +25,4 @@ jobs:
         run: html-validator --file=index.html --verbose
 
       - name: Validar CSS
-        run: csstree-validator --file=src/index.css --verbose
+        run: csstree-validator src/index.css
