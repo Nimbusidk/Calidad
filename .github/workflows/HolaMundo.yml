@@ -22,7 +22,7 @@ jobs:
         run: npm install -g html-validator-cli
 
       - name: validator HTML   
-        run: html-validator --file=dist/index.html --verbose
+        run: html-validator --file=index.html --verbose
 
       - name: Validar CSS
-        run: npx css-validator --file=dist/assets/index-0bb75f0b.css --verbose
+        run: npx css-validator --file=src/index.css --verbose
