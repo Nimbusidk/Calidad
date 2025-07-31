@@ -6,7 +6,7 @@ export const Heading = () => {
     <div>
       <div className="flex items-center mb-10">
         <Link to="/">
-          <h5 className="text-gray-100 font-bold text-2xl">Lista de tareas</h5>
+          <h5 className="text-gray-100 font-bold text-2xl">Lista de tareas hjkhj</h5>
         </Link>
         <div className="flex-grow text-right px-4 py-2 m-2">
           <Link to="/add">
