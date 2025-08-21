@@ -16,7 +16,6 @@ jobs:
 
       - name: Usar Node.js
         run: echo "¡Hola Mundo!"
-
       
       - name: instalando
         run: npm install -g html-validator-cli csstree-validator
